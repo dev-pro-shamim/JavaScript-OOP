@@ -15,7 +15,42 @@ var book ={
 // console.log(book);
 // book.print();
 
-console.log('Book Name : ' + book.name);
-console.log('Book Author  : ' +book['author'] );
+//console.log('Book Name : ' + book.name);//dot notation
+//console.log('Book Author  : ' +book['author'] );//bracket notation
+
+console.log('Published year : '+book.publishyear);
+
+book.publishyear= 2020
+console.log('Published year : '+book.publishyear);
+book['price'] = 30;
+console.log('Price : ' + book.price);
+
+//for in loop 
+
+for( var props in book){
+    //console.log(props);
+    console.log(props + ' = ' + book[props])
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
