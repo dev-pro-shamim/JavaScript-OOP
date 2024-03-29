@@ -1,0 +1,1 @@
+//Not available for javascript for abstruction
